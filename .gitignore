@@ -1,0 +1,93 @@
+########################################################################
+# Based on the DIME .gitignore template (with some edits)
+# https://github.com/worldbank/DIMEwiki/tree/master/Topics/GitHub
+########################################################################
+
+# These files include GitHub settings
+!.gitignore
+!.gitattributes
+
+# Keep markdown files used for documentation on GitHub
+!README.md
+!CONTRIBUTING.md
+
+# Ignore TIF enyplace they are
+#/**/*.tif
+#/**/*.TIF
+#*/**/*.tif.ovr
+#*/**/*.TIF.ovr
+#/**/*.clr
+#*/**/*.TIF
+#*/**/*.tif
+
+
+#ignore input folder 
+*/input/
+#ignore admin unit folder 
+admin units/
+/admin units/
+*/admin units/
+
+
+
+#######################
+# The following file types are code that should always be
+# included no matter where in the repository folder they are
+# located unless you explicitly ignore that folder
+
+# Stata
+!/**/*.do
+!/**/*.ado
+!/**/*.smcl
+!/**/*.log
+
+# R
+!/**/*.R
+
+# LaTeX
+!/**/*.tex
+
+# pdf
+!/**/*.pdf
+
+# Python
+#!/**/*.py
+!/**/*.ipynb
+
+.vscode/*
+*.pyc
+*.json
+dataWork/python/*/__pycache__/
+__pycache__/
+/.vscode/*
+
+# Matlab
+!/**/*.m
+
+# Markdown
+!/**/*.md
+
+#######################
+# Ignore the (raw) data folder (redundant)
+**/raw/
+
+# Ignore DS_Store -- I think it's a mac thing
+.DS_Store
+
+# Ignore thumbnails for photos, wherever they may be
+**/Thumbs.db
+
+# Ignore temp folders if there is one
+**/temp/
+
+
+/input/
+/input/
+input/
+*/input/
+
+/Input/
+/Input/
+Input/
+*/Input/
+
